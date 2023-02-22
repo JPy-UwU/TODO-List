@@ -106,3 +106,8 @@ body {
     cursor: pointer;
     outline: none;
 }
+
+.completed {
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+}
