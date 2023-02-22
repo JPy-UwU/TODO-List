@@ -28,4 +28,6 @@ document.querySelector('#push').onclick = function() {
             this.classList.toggle('completed');
         }
     }
+
+    document.querySelector("#newTask input").value = "";
 }
